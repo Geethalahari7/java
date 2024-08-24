@@ -1,0 +1,17 @@
+import java.util.*;
+class col
+{
+col()
+{
+System.out.println("Constructor overloading");
+}
+col(int n,int m)
+{
+System.out.println(n*m);
+}
+public static void main(String[]args)
+{
+col obj1=new col();
+col obj2=new col(4,5);
+}
+}
